@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    --G10: #00391C;
+    --B1:#F89236;
+    --l1:41.02px;
+    --h1:64.09px;
+    --h2:51.3px;
+    --h6:21px;
+    --h7:16.8px;
+    --h8:13.4px;
+    --h9:10.8px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+   
+    background-color: var(--G10);
+
+}
+/* ASSET CLASSES */
+.flex-r{
+    display: flex;
+}
+
+.flex-c{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.l1{
+    font-size: var(--l1);
+    font-weight: 700;
+    color: white;
+    
+}
+
+.p2{
+    font-size: var(--h2);
+    font-weight: 400;
+    color: white;
+}
+.p6{
+    font-size: var(--h6);
+    font-weight: 400;
+    color: white;
+}
+.p7{
+    font-size: var(--h7);
+    font-weight: 400;
+    color: black;
+}
+.p8{
+    font-size: var(--h8);
+    font-weight: 400;
+    color: black;
+}
+.p9{
+    font-size: var(--h9);
+    font-weight: 400;
+    color: black;
+}
+.h8{
+    font-size: var(--h8);
+    font-weight: 700;
+    color: black;
+}
+.h7{
+    font-size: var(--h7);
+    font-weight: 700;
+    color: black;
+}
+.h6{
+    font-size: var(--h6);
+    font-weight: 700;
+    color: white;
+}
+
+.h2{
+    font-size: var(--h2);
+    font-weight: 700;
+    color: white;
+}
+
+.vl{
+    border-left: 4px solid white;
+    height: 263px;
+}
+
+.invisible{
+    display: none;
+}
+
+/* HEADER  */
+
+header{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#logo{
+    position: relative;
+    left: 64px;
+}
+
+#ul-header{
+    position: relative;
+    right: 128px;
+    width: 358px;
+    justify-content: space-between;
+}
+
+#ul-header li{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: var(--h6);
+    font-weight: 700;
+    list-style: none;
+}
+#ul-header li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+#ul-header li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+#ul-header li a{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: var(--h6);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* HERO */
+
+#hero-txt{
+    width: 548px;
+    text-align: center;
+    position: relative;
+    top: 107px;
+    left: 64px;
+}
+
+#hero-img{
+    position: absolute;
+    right: 0px;
+    top: 70px;
+
+}
+/* SOCIAL MEDIA  */
+
+#social{
+    height: 448.33px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 234px;
+    left: 44px;
+}
+
+/* HAPPY BIRTHDAY */
+
+#hbd{
+    position: absolute;
+    top: 617px;
+    left: 462px;
+    align-items: center;
+}
+
+button{
+    margin-left: 32px;
+    background: var(--B1);
+    border: 4px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    border-radius: 16px;
+    padding: 8px 48px;
+    gap: 10px;
+}
+
+button:hover{
+    
+    background: #F9AE73;
+}
+
+button:active{
+    background: #BD7941;
+}
+
+button:disabled{
+    background: rgba(0, 0, 0, 0.25);
+}
+button:disabled p{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* COFFEE OVERLAY */
+
+#c-over{
+    background: white;
+    height:213px ;
+    width: 161px;
+    box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 90px;
+    left:1003px ;
+
+}
+
+#c-over p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* MENU OVERLAY */
+
+#m-over{
+    background: white;
+    height:213px ;
+    width: 419px;
+    box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 90px;
+    left:1006px ;
+
+}
+
+#m-over p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* BIRTHDAY OVERLAY */
+#b-over{
+    background: white;
+    height:233px ;
+    width: 188px;
+    box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 40.2px;
+    right:388px ;
+    text-align: center;
+
+}
